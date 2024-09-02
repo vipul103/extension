@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Price Scraper",
+  "version": "1.0",
+  "description": "Scrape and display the price from the current page.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "logo192.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}

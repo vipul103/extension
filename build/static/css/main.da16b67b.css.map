@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.da16b67b.css","mappings":"AAAA,UAEE,YAAa,CADb,WAGF,CAEA,KACE,uEAEF","sources":["index.css"],"sourcesContent":["html, body {\n  width: 400px;\n  height: 100px;\n\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',\n    monospace;\n}\n"],"names":[],"sourceRoot":""}
